@@ -2,13 +2,15 @@
 const express = require('express')
 const app = express()
 let givenPort;
-let port = 3000;
+let port = process.env.PORT || 3000;
 app.set('trust proxy', true)
 
 process.argv.forEach(function (val, index, array) {
   if(index === 2) {
     givenPort = Number(val);
     givenPort = (isNaN(givenPort) || (givenPort < 0 || givenPort > 65535)) ? port : Number(val); 
+  } else {
+    givenPort = port;
   }
 });
 
