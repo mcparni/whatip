@@ -7,7 +7,7 @@ NodeJS and NPM is required build and run the projet.
 ***Clone the project:***  
 ```$ git clone https://github.com/mcparni/whatip && cd whatip/```  
 ***Install depenencies:***  
-```$ npm install```
+```$ npm install```  
 ***Run:***  
 ```$ node index.js```  
   
