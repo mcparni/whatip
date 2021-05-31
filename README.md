@@ -5,7 +5,7 @@ Simple NodeJS application to inform the visitor of her/his ip adddress
 NodeJS and NPM is required build and run the projet.  
   
 ***Clone the project:***  
-```$ git clone https://github.com/mcparni/whatip && cd whatip/```
+```$ git clone https://github.com/mcparni/whatip && cd whatip/```  
 ***Install depenencies:***  
 ```$ npm install```
 ***Run:***  
