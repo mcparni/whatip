@@ -14,3 +14,7 @@ NodeJS and NPM is required build and run the projet.
 The above starts the server on localhost in port 3000. Port can be changed by two ways:  
 1. Set environment variable PORT to value 0-65535 or  
 2. Pass the port as parameter when running the server, for example: ```$ node index.js 4000```
+
+## Demo
+After every push to this repository a new docker image gets built and pushed to docker hub. Also a new version is pushed to Heroku. Demo can be seen here: https://secret-shelf-46135.herokuapp.com/
+
