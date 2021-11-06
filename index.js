@@ -26,7 +26,7 @@ app.get('/', function (req, res) {
       <title>What IP build</title>
     </head>
     <body>
-      <div>Your ip address is ${ip}</div>
+      <div>Hello, Your ip address is ${ip}</div>
     </body>
   </html>`
   res.status(200).send(html);
