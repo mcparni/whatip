@@ -23,7 +23,7 @@ app.get('/', function (req, res) {
   <html>
     <head>
       <meta charset="utf-8">
-      <title>What IP</title>
+      <title>What IP build</title>
     </head>
     <body>
       <div>Your ip address is ${ip}</div>
